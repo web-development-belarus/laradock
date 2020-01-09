@@ -480,7 +480,7 @@ composer require predis/predis:^1.0
 5 - 你可以用以下代码在 Laravel 中手动测试：
 
 ```php
-\Cache::store('redis')->put('Laradock', 'Awesome', 10);
+Cache::store('redis')->put('Laradock', 'Awesome', 10);
 ```
 
 <a name="Use-Mongo"></a>

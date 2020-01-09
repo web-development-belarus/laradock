@@ -742,7 +742,7 @@ composer require predis/predis:^1.0
 5 - You can manually test it from Laravel with this code:
 
 ```php
-\Cache::store('redis')->put('Laradock', 'Awesome', 10);
+Cache::store('redis')->put('Laradock', 'Awesome', 10);
 ```
 
 
